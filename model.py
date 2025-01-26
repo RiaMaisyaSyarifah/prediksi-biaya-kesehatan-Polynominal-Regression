@@ -6,7 +6,6 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import train_test_split
-from fpdf import FPDF
 
 # Select Language
 language = st.selectbox("Pilih Bahasa / Select Language", ['Bahasa Indonesia', 'English'])
